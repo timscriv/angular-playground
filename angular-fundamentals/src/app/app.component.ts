@@ -9,8 +9,7 @@ export class AppComponent {
   title = 'Hello World!';
 
   constructor(
-    @Inject('mail') private mail,
-    @Inject('api') private api
+    @Inject('mail') private mail
   ) { }
 
 }
